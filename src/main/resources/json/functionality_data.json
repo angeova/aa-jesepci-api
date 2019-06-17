@@ -1,0 +1,54 @@
+{
+	"user": 1,
+	"datas": [
+		{
+			"code": "MEMBER",
+			"name": "MEMBER"
+		},
+		{
+			"code": "VIEW_MEMBER",
+			"parentCode": "MEMBER",
+			"name": "VIEW MEMBER"
+		},
+		{
+			"code": "CREATE_MEMBER",
+			"parentCode": "MEMBER",
+			"name": "CREATE MEMBER"
+		},
+		{
+			"code": "UPDATE_MEMBER",
+			"parentCode": "MEMBER",
+			"name": "UPDATE MEMBER"
+		},
+		{
+			"code": "DELETE_MEMBER",
+			"parentCode": "MEMBER",
+			"name": "DELETE MEMBER"
+		},
+		{
+			"code": "USER",
+			"name": "USER"
+		},
+		{
+			"code": "VIEW_USER",
+			"parentCode": "USER",
+			"name": "VIEW USER"
+		},
+		{
+			"code": "CREATE_USER",
+			"parentCode": "USER",
+			"name": "CREATE USER"
+		},
+		{
+			"code": "UPDATE_USER",
+			"parentCode": "USER",
+			"name": "UPDATE USER"
+		},
+		{
+			"code": "DELETE_USER",
+			"parentCode": "USER",
+			"name": "DELETE USER"
+		}
+
+	]
+}

@@ -1,0 +1,278 @@
+
+{
+	"id": "project.id",
+	"name": "ci_gcorp_aajesepci",
+	"description": "",
+	"order": [],
+	"timestamp": 1497267117086,
+	"owner": "1151918",
+	"public": false,
+	"folders": [
+		{
+			"id": "member.id",
+			"name": "member",
+			"description": "",
+			"order": [
+				"member.getByCriteria",
+				"member.create",
+				"member.update",
+				"member.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "user.id",
+			"name": "user",
+			"description": "",
+			"order": [
+				"user.getByCriteria",
+				"user.create",
+				"user.update",
+				"user.delete"
+			],
+			"owner": "1151918"
+		}
+	],
+	"requests": [
+		{
+			"id": "member.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/member/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "member-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"firstname\": \"\",\n\t\t\t\"lastname\": \"\",\n\t\t\t\"bornon\": \"\",\n\t\t\t\"gender\": \"\",\n\t\t\t\"job\": \"\",\n\t\t\t\"email\": \"\",\n\t\t\t\"promoinp\": \"\",\n\t\t\t\"studiedsectorinp\": \"\",\n\t\t\t\"maritalstatus\": \"\",\n\t\t\t\"nameofspouse\": \"\",\n\t\t\t\"churchattended\": \"\",\n\t\t\t\"placeofresidence\": \"\",\n\t\t\t\"isepici\": \"\",\n\t\t\t\"district\": \"\",\n\t\t\t\"secteur\": \"\",\n\t\t\t\"assemblee\": \"\",\n\t\t\t\"responsabilityinchuch\": \"\",\n\t\t\t\"photo\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "member.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/member/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "member-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"firstname\": \"\",\n\t\t\t\"lastname\": \"\",\n\t\t\t\"bornon\": \"\",\n\t\t\t\"gender\": \"\",\n\t\t\t\"job\": \"\",\n\t\t\t\"email\": \"\",\n\t\t\t\"promoinp\": \"\",\n\t\t\t\"studiedsectorinp\": \"\",\n\t\t\t\"maritalstatus\": \"\",\n\t\t\t\"nameofspouse\": \"\",\n\t\t\t\"churchattended\": \"\",\n\t\t\t\"placeofresidence\": \"\",\n\t\t\t\"isepici\": \"\",\n\t\t\t\"district\": \"\",\n\t\t\t\"secteur\": \"\",\n\t\t\t\"assemblee\": \"\",\n\t\t\t\"responsabilityinchuch\": \"\",\n\t\t\t\"photo\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "member.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/member/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "member-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "member.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/member/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "member-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"firstname\": \"\",\n\t\t\"lastname\": \"\",\n\t\t\"bornon\": \"\",\n\t\t\"gender\": \"\",\n\t\t\"job\": \"\",\n\t\t\"email\": \"\",\n\t\t\"promoinp\": \"\",\n\t\t\"studiedsectorinp\": \"\",\n\t\t\"maritalstatus\": \"\",\n\t\t\"nameofspouse\": \"\",\n\t\t\"churchattended\": \"\",\n\t\t\"placeofresidence\": \"\",\n\t\t\"isepici\": \"\",\n\t\t\"district\": \"\",\n\t\t\"secteur\": \"\",\n\t\t\"assemblee\": \"\",\n\t\t\"responsabilityinchuch\": \"\",\n\t\t\"photo\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "user.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/user/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "user-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"login\": \"\",\n\t\t\t\"password\": \"\",\n\t\t\t\"firstName\": \"\",\n\t\t\t\"lastName\": \"\",\n\t\t\t\"bornOn\": \"\",\n\t\t\t\"locked\": \"\",\n\t\t\t\"isSuperAdmin\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "user.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/user/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "user-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"login\": \"\",\n\t\t\t\"password\": \"\",\n\t\t\t\"firstName\": \"\",\n\t\t\t\"lastName\": \"\",\n\t\t\t\"bornOn\": \"\",\n\t\t\t\"locked\": \"\",\n\t\t\t\"isSuperAdmin\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "user.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/user/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "user-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "user.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/user/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "user-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"login\": \"\",\n\t\t\"password\": \"\",\n\t\t\"firstName\": \"\",\n\t\t\"lastName\": \"\",\n\t\t\"bornOn\": \"\",\n\t\t\"locked\": \"\",\n\t\t\"isSuperAdmin\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"updatedAt\": \"\"\n\t}  \n}"
+		}
+	]
+}

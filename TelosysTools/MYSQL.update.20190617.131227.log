@@ -1,0 +1,7 @@
+Update date : Mon Jun 17 13:12:27 GMT 2019
+ 
+ Table 'member' found in repository
+ (=) table 'member' unchanged
+ 
+ Table 'user' not found in repository
+ (+) table 'user' added
