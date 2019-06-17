@@ -10,7 +10,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2019-06-17T13:17:35+0000",
+    date = "2019-06-17T14:11:43+0000",
     comments = "version: 1.2.0.Final, compiler: javac, environment: Java 1.8.0_162 (Oracle Corporation)"
 )
 public class MemberTransformerImpl implements MemberTransformer {
